@@ -7,43 +7,47 @@
     <title>AI French Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI French poem generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the French poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        This poem will go here
-        <br />
-        This poem will go here
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>AI French poem generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the French poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instruction"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          This poem will go here
+          <br />
+          This poem will go here
+        </div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/AureliaM-c" target="_blank">Aurelia Mourey</a>
-      and is
-      <a
-        href="https://github.com/AureliaM-c/French-poem-generator"
-        target="_blank"
-      >
-        open-sourced on Github</a
-      >
-      and is
-      <a href="https://french-poems-generators.netlify.app/" target="_blank"
-        >hosted on Netlify.</a
-      >
-    </footer>
-
+      <footer>
+        This project was coded by
+        <a href="https://github.com/AureliaM-c" target="_blank"
+          >Aurelia Mourey</a
+        >
+        and is
+        <a
+          href="https://github.com/AureliaM-c/French-poem-generator"
+          target="_blank"
+        >
+          open-sourced on Github</a
+        >
+        and is
+        <a href="https://french-poems-generators.netlify.app/" target="_blank"
+          >hosted on Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
