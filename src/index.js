@@ -4,12 +4,11 @@ function displayPoem(response) {
 
   let poemText = response.data.answer;
 
-  // Typed.js works perfectly with HTML!
   new Typed("#poem", {
     strings: [poemText],
     typeSpeed: 50,
     showCursor: false,
-    contentType: "html", // This is the magic - it renders HTML properly!
+    contentType: "html",
   });
 }
 
